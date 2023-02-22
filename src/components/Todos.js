@@ -22,6 +22,7 @@ export default class Todos extends Component {
             todos: [...this.state.todos, this.state.text],
             //copy original array and then add whatever is inputted, so that the OG array isn't mutated
             text:""
+            
         })
     }
   // any time state changes, everything in render will run
